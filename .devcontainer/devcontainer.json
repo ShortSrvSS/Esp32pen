@@ -1,0 +1,8 @@
+{
+  "name": "ESP32 PlatformIO",
+  "image": "mplatformio/platformio-core",
+  "settings": {},
+  "extensions": ["platformio.platformio-ide"],
+  "postCreateCommand": "pio upgrade || true",
+  "remoteUser": "root"
+}
